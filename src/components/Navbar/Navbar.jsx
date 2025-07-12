@@ -39,7 +39,7 @@ export const Navbar = ({route}) => {
         className="form-container d-flex align-center cursor-pointer shadow"
         onClick={handleSearchClick}
       >
-        <span className="form-option">{route === "home" ? "Any Where" : (destination || "Any Where")}</span> // if destination is enter the show destination or show Any
+        <span className="form-option">{route === "home" ? "Any Where" : (destination || "Any Where")}</span>
         <span className="border-right-1px"></span>
         <span className="form-option">
           {checkInDate && checkOutDate && route !== "home"
